@@ -2,9 +2,9 @@
   Step 1. Correct the variable scope so that the console.log()
   call outputs the correct value (5) for x. You must still use
   `x` as the variable inside the function, however.
-*/
 
-x = 5;
+
+ var x = 5;
 
 function double(num) {
   x = num * 2;
@@ -30,3 +30,23 @@ console.log('The value of x is', x, '-- it should be 5.');
   so that non-number values passed into the function are handled
   in some reasonable way.
 */
+
+/* ======= ANSWERS =======*/
+/* Step 1 */
+var x = 5;
+console.log('The value of x is', x, '-- it should be 5.');
+
+/* Step 2 */
+function const {
+  x = num * 2;
+  return x;
+}
+
+/* Step 3 */
+function const {
+  x = num *2;
+  return x;
+
+  if num !=== "number";
+  num == "invalid";
+}
